@@ -65,6 +65,7 @@
       - patch
       - telnet
       - unsecure_services
+  register: V-38587-RESULTS
 
 - block:
     - name: "HIGH | V-38589 | PATCH | The telnet daemon must not be running"
@@ -226,6 +227,7 @@
       - V-38668
       - patch
       - ctrl_alt_delete
+  register: V-38668-RESULTS
 
 # Not automated
 # - name: "HIGH | V-38677 | AUDIT | The NFS server must not have the insecure file locking option enabled"

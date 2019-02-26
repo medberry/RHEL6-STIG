@@ -1790,6 +1790,7 @@
       - umask
       - csh
       - patch
+  register: V-38649-RESULTS
 
 - name: "LOW | V-38650 | AUDIT | The rdisc service must not be running."
   command: chkconfig 'rdisc' --list
